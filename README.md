@@ -1,7 +1,8 @@
 # Bug Bounty Monitor
 
 English | [中文](README_zh.md)
-🎬[Demo Video](https://www.youtube.com/watch?v=31ocxVjui-M)
+
+🎬[**Youtube Demo**](https://www.youtube.com/watch?v=31ocxVjui-M)
 
 ## Introduction
 
@@ -19,8 +20,8 @@ You can check the development process and installation steps of this script on [
 
 **Data Sources**
 
-- This monitoring script uses data from the ProjectDiscovery [Chaos](https://chaos.projectdiscovery.io/) project page.
-- The target query range is based on the data collected from ProjectDiscovery [Public BugBounty Programs](https://github.com/projectdiscovery/public-bugbounty-programs).
+- This monitoring script uses data from the **ProjectDiscovery** [**Chaos**](https://chaos.projectdiscovery.io/) project page.
+- The target query range is based on the data collected from **ProjectDiscovery** [**Public BugBounty Programs**](https://github.com/projectdiscovery/public-bugbounty-programs).
 
 ## Installation
 
