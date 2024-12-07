@@ -1,7 +1,8 @@
 # Bug Bounty Monitor
 
 [English](README.md) | 中文
-🎬[演示视频](https://www.youtube.com/watch?v=31ocxVjui-M)
+
+🎬[**YouTube 演示**](https://www.youtube.com/watch?v=31ocxVjui-M)
 
 ## 介绍
 
@@ -19,8 +20,8 @@
 
 **数据来源**
 
-- 本监控脚本数据源基于 ProjectDiscovery [Chaos](https://chaos.projectdiscovery.io/) 项目页面
-- 查询目标范围基于 ProjectDiscovery [Public BugBounty Programs](https://github.com/projectdiscovery/public-bugbounty-programs) 收录数据
+- 本监控脚本数据源基于 **ProjectDiscovery** [**Chaos**](https://chaos.projectdiscovery.io/) 项目页面
+- 查询目标范围基于 **ProjectDiscovery** [**Public BugBounty Programs**](https://github.com/projectdiscovery/public-bugbounty-programs) 收录数据
 
 ## 安装说明
 
