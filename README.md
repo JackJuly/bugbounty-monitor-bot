@@ -48,13 +48,32 @@ You can check the development process and installation steps of this script on [
   - Adds a target to the monitoring list based on the target name.
 - `/del <target>`: Remove a target from the monitoring list.
   - Removes a target from the monitoring list by the target name.
+- `/update`: Manually update chaos data.
+  - Fetches and updates the chaos data from the ProjectDiscovery API.
+- `/stats`: Show chaos data stats.
+  - Displays statistics about the chaos data, including total programs, new programs, and changes.
+- `/new` : Show new programs.
+  - Lists new programs from the chaos data.
+- `/changes <target>` : Show changes in domains for a specific target.
+  - Displays changes in domains and subdomains for the given target.
+- `/changes_since <target>` : Show changes in domains for a specific target since added to monitor list.
+  - Displays changes in domains and subdomains for the given target since added to monitor list.
+
+## Update
+
+- Added the `update` command, which can manually update data.
+- Added the `new` command, which can query new bug bounty programs.
+- Added the `stats` command, which can query statistical information for Chaos data.
+- Added the `changes` and `changes_since` commands, which can query domain changes for a specific target and list newly added/removed subdomains in detail.
+
+![Screenshot](screenshots/05.png)
 
 ## TODO
 
-- Query newly added projects
-- List specific newly added Subdomains
-- Independent subdomain query feature
-- JavaScript files Monitoring
+- [x] Query newly added projects
+- [x] List specific newly added Subdomains
+- [ ] Independent subdomain query feature
+- [ ] JavaScript files Monitoring
 
 **This script only implements very BASIC monitoring and query functions. You can customize and add more useful features, and feel free to share them here.**
 
